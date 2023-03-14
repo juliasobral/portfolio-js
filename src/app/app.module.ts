@@ -14,12 +14,11 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { PerfilLateralComponent } from './perfil-lateral/perfil-lateral.component';
-import { LoginComponent } from './login/login.component';
-import { CadastroComponent } from './cadastro/cadastro.component';
 import { AlertasComponent } from './alertas/alertas.component';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { SafePipe } from './safe.pipe';
-import { CurriculoComponent } from './curriculo/curriculo.component'
+import { CurriculoComponent } from './curriculo/curriculo.component';
+import { ProjetosComponent } from './projetos/projetos.component'
 
 @NgModule({
   declarations: [
@@ -28,11 +27,10 @@ import { CurriculoComponent } from './curriculo/curriculo.component'
     NavbarComponent,
     FooterComponent,
     PerfilLateralComponent,
-    LoginComponent,
-    CadastroComponent,
     AlertasComponent,
     SafePipe,
-    CurriculoComponent
+    CurriculoComponent,
+    ProjetosComponent
   ],
   imports: [
     BrowserModule,

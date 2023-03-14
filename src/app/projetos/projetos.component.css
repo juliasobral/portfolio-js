@@ -15,13 +15,14 @@
   margin: 100px;
 }
 
-.images img{
-  display: flex;
-  position: relative;
-  margin: -40px;
-  left: 70px;
-  border-radius: 100%;
-  width: 289px;
+.im{
+    margin-left: 20%;
+    margin-top: -9%;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+    width: 95px;
 }
 
 .images img:hover {
@@ -49,7 +50,7 @@
 .text p {
   font-size: 14px;
   text-align: justify;
-  color: grey;
+  color: #ff7300;
   font-family: verdana, sans-serif;
 }
 

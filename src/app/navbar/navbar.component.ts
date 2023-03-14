@@ -1,5 +1,4 @@
 import { environment } from './../../environments/environment.prod';
-import { AuthService } from './../service/auth.service';
 import { Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
 
@@ -11,8 +10,7 @@ import { Component, OnInit } from '@angular/core';
 export class NavbarComponent implements OnInit {
 
   constructor(
-    private router: Router,
-    public auth: AuthService
+    private router: Router
   ) { }
 
   ngOnInit() {
