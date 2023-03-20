@@ -2,54 +2,131 @@
 @import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Oxygen:wght@700&family=Rubik&display=swap');
 @import url(https://fonts.googleapis.com/css2?family=Oxygen:wght@700&family=Rubik&display=swap);
 
-.aboutme {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 100px 150px;
-}
-
 .images {
-  display: flex;
-  position: relative;
-  margin: 100px;
+    display: flex;
+    position: relative;
+    margin: 100px;
 }
 
 .images img{
-  display: flex;
-  position: relative;
-  margin: -40px;
-  left: 70px;
-  border-radius: 100%;
-  width: 289px;
+    display: flex;
+    position: relative;
+    margin: -40px;
+    border-radius: 100%;
+    width: 280px;
 }
 
 .images img:hover {
-  transform: scale(1.2);
-  transition-duration: 0.3s;
-  transition-timing-function: ease-in;
-  transition-property: all;
+    transform: scale(1.2);
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+    transition-property: all;
 }
-.text a {
-  font-size: 42px;
-  margin: 50px 0;
-  font-family: 'Julius Sans One', sans-serif;
-  font-weight:bold;
-  color: #ff7300;
+.text h1 {
+    font-size: 47px;
+    margin: 30px 0;
+    font-family: 'Julius Sans One', sans-serif;
+    color: #6c3c7c;
 }
 
 .text h2 {
-  display: flex;
-  margin-top: 5px;
-  font-size: 16px;
-  font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace, sans-serif;
-  color: rgb(100, 98, 98);
+    display: flex;
+    margin: 15px 0;
+    font-size: 18px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight:bold;
+    color: #030303;
 }
 
 .text p {
-  font-size: 14px;
-  text-align: justify;
-  color: grey;
-  font-family: verdana, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight:bold;
+    color: #ff7300;
+}
+
+h2{
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight:bold;
+  color: #030303;
+  size: 30px;
+}
+/* -------------- galeriapage -------------- */
+
+
+
+.galeria {
+    display: flex;
+    justify-content: space-between;
+    margin: 110px 110px 0;
+}
+
+.galeria-images{
+    display: flex;
+    flex-direction: column;
+}
+
+.galeria-images ul {
+    list-style: none;
+    display: flex;
+}
+
+.galeria-images ul li a img{
+    display: flex;
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    margin: -20px 0;
+} 
+
+.galeria-images ul li a img:hover {
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+    transition-property: all;
+}
+
+.galeria-titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #6c3c7c;
+}
+
+.galeria-titulo h1 {
+    font-size: 100px;
+    font-family: 'Sen', sans-serif;
+    margin-bottom: -10px;
+}
+
+.galeria-titulo h2 {
+    font-size: 45px;
+    font-family: 'Sen', sans-serif;
+}
+
+.galeria button{
+  color: #040005;
+  background: linear-gradient(270deg, #f8ae59 30%, #f86125 100%);
+    border-radius: 15px;
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Sen', sans-serif;
+    cursor: pointer;
+    border: 0;
+}
+
+.titulo-galeria button:hover {
+    color: #040005;
+    background: linear-gradient(270deg, #f76917 30%, #e7b04a 100%);
+    transform: scale(0.95);
+    font-family: 'Sen', sans-serif;
+    cursor: pointer;
+    transform: scale(0.95);
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+    transition-property: all;
 }
 
